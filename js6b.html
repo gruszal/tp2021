@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Moja Strona</title>
+  </head>
+  <body>
+    <p id="tekst">Dzień dobry</p>
+    
+    <script>
+        document.addEventListener('keypress', logKey);
+
+        function logKey(e) {
+          if(e.code === 'KeyW') {
+            console.log('Góra')
+          }
+          if(e.code === 'KeyS') {
+            console.log('Dół')
+          }
+          if(e.code === 'KeyA') {
+            console.log('Lewo')
+          }
+          if(e.code === 'KeyD') {
+            console.log('Prawo')
+          }
+        }
+    </script>
+  </body>
+</html>

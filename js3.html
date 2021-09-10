@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Moja Strona</title>
+  </head>
+  <body>
+    <p>
+        <button onclick="zmien()">przycisk</button> zmienia zawartość pola tekstowego
+    </p>
+
+    <p>
+        Tutaj możesz coś wpisać:
+        <input id="wpis" type="text">
+    </p>
+
+    <script>
+        function zmien() {
+          document.getElementById("wpis").value = "Uwaga! zmiana!";
+        }
+    </script>
+  </body>
+</html>

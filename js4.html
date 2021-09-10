@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Moja Strona</title>
+  </head>
+  <body>
+    <p>
+        <button onclick="wyswietl()">przycisk</button>
+    </p>
+
+    <p>
+        Tutaj możesz coś wpisać:
+        <input id="wpis" type="text">
+    </p>
+
+    <script>
+        function wyswietl() {
+          let wpisany_tekst = document.getElementById("wpis").value;
+          alert("Pole tekstowe zawiera: " + wpisany_tekst)
+        }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Moja Strona</title>
+  </head>
+  <body>
+    <p>
+        Ten <button onclick="zmien()">przycisk</button> już coś robi
+    </p>
+
+    <p style="margin-top: 200px">
+        <span id="zmienny_tekst">Tu jest tekst</span>
+    </p>
+
+    <script>
+        function zmien() {
+          document.getElementById("zmienny_tekst").innerHTML = "Uwaga! zmiana!";
+        }
+    </script>
+  </body>
+</html>
